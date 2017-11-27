@@ -8,13 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		8F850D8D1FCC01F20066F903 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F850D8C1FCC01F20066F903 /* AppDelegate.m */; };
-		8F850D901FCC01F20066F903 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F850D8F1FCC01F20066F903 /* ViewController.m */; };
 		8F850D931FCC01F20066F903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F850D911FCC01F20066F903 /* Main.storyboard */; };
 		8F850D951FCC01F20066F903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F850D941FCC01F20066F903 /* Assets.xcassets */; };
 		8F850D981FCC01F20066F903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F850D961FCC01F20066F903 /* LaunchScreen.storyboard */; };
 		8F850D9B1FCC01F20066F903 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F850D9A1FCC01F20066F903 /* main.m */; };
 		8F850DA51FCC01F20066F903 /* KDStoryBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F850DA41FCC01F20066F903 /* KDStoryBoardTests.m */; };
 		8F850DB01FCC01F20066F903 /* KDStoryBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F850DAF1FCC01F20066F903 /* KDStoryBoardUITests.m */; };
+		8F850DC01FCC02890066F903 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F850DBF1FCC02890066F903 /* MainTabBarController.m */; };
+		8F850DC41FCC02A80066F903 /* Function1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F850DC31FCC02A80066F903 /* Function1ViewController.m */; };
+		8F850DC71FCC02B80066F903 /* Function2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F850DC61FCC02B80066F903 /* Function2ViewController.m */; };
+		8F850DCA1FCC02C20066F903 /* Function3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F850DC91FCC02C20066F903 /* Function3ViewController.m */; };
+		8F850DCE1FCC09570066F903 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F850DCD1FCC09570066F903 /* LoginViewController.m */; };
+		8F850DD21FCC0AC80066F903 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F850DD11FCC0AC80066F903 /* LoginStoryboard.storyboard */; };
+		8F850DD51FCC10F40066F903 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F850DD41FCC10F40066F903 /* MainNavigationController.m */; };
+		8F850DDE1FCC1EC90066F903 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F850DDD1FCC1EC90066F903 /* RegisterViewController.m */; };
+		8F850DE11FCC20C10066F903 /* ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F850DE01FCC20C10066F903 /* ForgotPasswordViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +46,6 @@
 		8F850D881FCC01F20066F903 /* KDStoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KDStoryBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F850D8B1FCC01F20066F903 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8F850D8C1FCC01F20066F903 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8F850D8E1FCC01F20066F903 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8F850D8F1FCC01F20066F903 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8F850D921FCC01F20066F903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F850D941FCC01F20066F903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F850D971FCC01F20066F903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,23 @@
 		8F850DAB1FCC01F20066F903 /* KDStoryBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KDStoryBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F850DAF1FCC01F20066F903 /* KDStoryBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDStoryBoardUITests.m; sourceTree = "<group>"; };
 		8F850DB11FCC01F20066F903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F850DBE1FCC02890066F903 /* MainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		8F850DBF1FCC02890066F903 /* MainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		8F850DC21FCC02A80066F903 /* Function1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Function1ViewController.h; sourceTree = "<group>"; };
+		8F850DC31FCC02A80066F903 /* Function1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Function1ViewController.m; sourceTree = "<group>"; };
+		8F850DC51FCC02B80066F903 /* Function2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Function2ViewController.h; sourceTree = "<group>"; };
+		8F850DC61FCC02B80066F903 /* Function2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Function2ViewController.m; sourceTree = "<group>"; };
+		8F850DC81FCC02C20066F903 /* Function3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Function3ViewController.h; sourceTree = "<group>"; };
+		8F850DC91FCC02C20066F903 /* Function3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Function3ViewController.m; sourceTree = "<group>"; };
+		8F850DCC1FCC09570066F903 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8F850DCD1FCC09570066F903 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8F850DD11FCC0AC80066F903 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		8F850DD31FCC10F40066F903 /* MainNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		8F850DD41FCC10F40066F903 /* MainNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		8F850DDC1FCC1EC90066F903 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		8F850DDD1FCC1EC90066F903 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		8F850DDF1FCC20C10066F903 /* ForgotPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordViewController.h; sourceTree = "<group>"; };
+		8F850DE01FCC20C10066F903 /* ForgotPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +124,13 @@
 		8F850D8A1FCC01F20066F903 /* KDStoryBoard */ = {
 			isa = PBXGroup;
 			children = (
+				8F850DCB1FCC09400066F903 /* Login */,
+				8F850DC11FCC028F0066F903 /* TabBarVC */,
+				8F850DBD1FCC02670066F903 /* SBTabBar */,
 				8F850D8B1FCC01F20066F903 /* AppDelegate.h */,
 				8F850D8C1FCC01F20066F903 /* AppDelegate.m */,
-				8F850D8E1FCC01F20066F903 /* ViewController.h */,
-				8F850D8F1FCC01F20066F903 /* ViewController.m */,
 				8F850D911FCC01F20066F903 /* Main.storyboard */,
+				8F850DD11FCC0AC80066F903 /* LoginStoryboard.storyboard */,
 				8F850D941FCC01F20066F903 /* Assets.xcassets */,
 				8F850D961FCC01F20066F903 /* LaunchScreen.storyboard */,
 				8F850D991FCC01F20066F903 /* Info.plist */,
@@ -130,6 +155,43 @@
 				8F850DB11FCC01F20066F903 /* Info.plist */,
 			);
 			path = KDStoryBoardUITests;
+			sourceTree = "<group>";
+		};
+		8F850DBD1FCC02670066F903 /* SBTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8F850DBE1FCC02890066F903 /* MainTabBarController.h */,
+				8F850DBF1FCC02890066F903 /* MainTabBarController.m */,
+				8F850DD31FCC10F40066F903 /* MainNavigationController.h */,
+				8F850DD41FCC10F40066F903 /* MainNavigationController.m */,
+			);
+			path = SBTabBar;
+			sourceTree = "<group>";
+		};
+		8F850DC11FCC028F0066F903 /* TabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				8F850DC21FCC02A80066F903 /* Function1ViewController.h */,
+				8F850DC31FCC02A80066F903 /* Function1ViewController.m */,
+				8F850DC51FCC02B80066F903 /* Function2ViewController.h */,
+				8F850DC61FCC02B80066F903 /* Function2ViewController.m */,
+				8F850DC81FCC02C20066F903 /* Function3ViewController.h */,
+				8F850DC91FCC02C20066F903 /* Function3ViewController.m */,
+			);
+			path = TabBarVC;
+			sourceTree = "<group>";
+		};
+		8F850DCB1FCC09400066F903 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8F850DCC1FCC09570066F903 /* LoginViewController.h */,
+				8F850DCD1FCC09570066F903 /* LoginViewController.m */,
+				8F850DDC1FCC1EC90066F903 /* RegisterViewController.h */,
+				8F850DDD1FCC1EC90066F903 /* RegisterViewController.m */,
+				8F850DDF1FCC20C10066F903 /* ForgotPasswordViewController.h */,
+				8F850DE01FCC20C10066F903 /* ForgotPasswordViewController.m */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +303,7 @@
 				8F850D981FCC01F20066F903 /* LaunchScreen.storyboard in Resources */,
 				8F850D951FCC01F20066F903 /* Assets.xcassets in Resources */,
 				8F850D931FCC01F20066F903 /* Main.storyboard in Resources */,
+				8F850DD21FCC0AC80066F903 /* LoginStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +328,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F850D901FCC01F20066F903 /* ViewController.m in Sources */,
 				8F850D9B1FCC01F20066F903 /* main.m in Sources */,
 				8F850D8D1FCC01F20066F903 /* AppDelegate.m in Sources */,
+				8F850DCA1FCC02C20066F903 /* Function3ViewController.m in Sources */,
+				8F850DC41FCC02A80066F903 /* Function1ViewController.m in Sources */,
+				8F850DDE1FCC1EC90066F903 /* RegisterViewController.m in Sources */,
+				8F850DCE1FCC09570066F903 /* LoginViewController.m in Sources */,
+				8F850DC71FCC02B80066F903 /* Function2ViewController.m in Sources */,
+				8F850DD51FCC10F40066F903 /* MainNavigationController.m in Sources */,
+				8F850DE11FCC20C10066F903 /* ForgotPasswordViewController.m in Sources */,
+				8F850DC01FCC02890066F903 /* MainTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +501,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LGN7SU938D;
+				DEVELOPMENT_TEAM = V3WGXX8M8S;
 				INFOPLIST_FILE = KDStoryBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qianft.KDStoryBoard;
@@ -445,7 +515,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LGN7SU938D;
+				DEVELOPMENT_TEAM = V3WGXX8M8S;
 				INFOPLIST_FILE = KDStoryBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qianft.KDStoryBoard;
