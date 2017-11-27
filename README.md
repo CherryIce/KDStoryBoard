@@ -18,4 +18,7 @@
 主storyboard用[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]]创建(Main即自定义名称)
 
 
-用[[UIStoryboard storyboardWithName:@"xxxxboard" bundle:nil] instantiateViewControllerWithIdentifier:@"currentStoryboardID"](xxxxboard即自定义名称,currentStoryboardID自定义ID)
+用[[UIStoryboard storyboardWithName:@"xxxxboard" bundle:nil] instantiateViewControllerWithIdentifier:@"currentStoryboardID"]
+
+
+(xxxxboard即自定义名称,currentStoryboardID自定义ID)
